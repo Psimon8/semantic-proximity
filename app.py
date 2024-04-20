@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain import LLM, OpenAI
+from langchain.llm import LLM
 from requests import get
 from requests.exceptions import RequestException
 
