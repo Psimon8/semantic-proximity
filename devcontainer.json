@@ -1,0 +1,17 @@
+{
+  "name": "Python & Streamlit",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "3.8",
+      "INSTALL_NODE": "true"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "extensions": [
+    "ms-python.python"
+  ]
+}
